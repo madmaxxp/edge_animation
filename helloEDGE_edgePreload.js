@@ -46,12 +46,12 @@ if(document.addEventListener ){
     };
 
    aLoader = [
-    { load: "https://raw.githubusercontent.com/madmaxxp/edge_animation/master/jquery-1.7.1.min.js"},
-    { load: "https://raw.githubusercontent.com/madmaxxp/edge_animation/master/jquery.easing.1.3.js"},
-    { load: "https://raw.githubusercontent.com/madmaxxp/edge_animation/master/edge.0.1.6.min.js"},
-        {test: !hasJSON, yep:"https://raw.githubusercontent.com/madmaxxp/edge_animation/master/json2_min.js"},
-          { load: "https://raw.githubusercontent.com/madmaxxp/edge_animation/master/helloEDGE_edge.js"},
-          { load: "https://raw.githubusercontent.com/madmaxxp/edge_animation/master/helloEDGE_edgeActions.js"}];
+    { load: "https://cdn.rawgit.com/madmaxxp/edge_animation/master/jquery-1.7.1.min.js"},
+    { load: "https://cdn.rawgit.com/madmaxxp/edge_animation/master/jquery.easing.1.3.js"},
+    { load: "https://cdn.rawgit.com/madmaxxp/edge_animation/master/edge.0.1.6.min.js"},
+        {test: !hasJSON, yep:"https://cdn.rawgit.com/madmaxxp/edge_animation/master/json2_min.js"},
+          { load: "https://cdn.rawgit.com/madmaxxp/edge_animation/master/helloEDGE_edge.js"},
+          { load: "https://cdn.rawgit.com/madmaxxp/edge_animation/master/helloEDGE_edgeActions.js"}];
 
 loadResources(aLoader, doDelayLoad);
 
